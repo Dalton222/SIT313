@@ -1,76 +1,45 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Taylor Dalton </title>
-    <link rel="stylesheet" href="task1.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
+<title>Deakin Newsletter Signup</title>
+<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+
+
 </head>
-<body style="background-color:grey">
-    
-    <div class="navigation">
-       <ul>
-            <li><a href="#home" >About</a></li>
-            <li><a href="#news" >Work</a></li>
-            <li><a href="#contact">Contact</a></li>
-        
-        </ul>
-    </div>
-      
-        <h1>
-          <div class="header-img">
-              <div class="hidden-text">Hey, I'm Taylor</div>
-          </div>
-        </h1>
-       
-        
-        <div class="container">
-          <div class="profile-picture"> 
-            <img src="me.PNG" alt="Profile Photo" style="width:200px;height:200px" >
-          </div>
-          <br>
-          <br>
-          <p style="font-size:130%;"> I am a full time student, I work as  a pet sitter and occasionally do some data collection work. </p>
-          <p style="font-size:300%;">_______________</p>
-          <h2> Here's what I've done so far</h2>
+<body>
 
-          <div class="project-pictures">
-                <img src="pet2.jpg" width="300" height="300" alt="coming soon"  style="vertical-align:middle" > 
-                <p style="display:inline-block;font-size:130%">Project description</p>
-                <br>
-                <img src="pet2.jpg" alt="coming soon" height="300" width="300"  style="vertical-align:middle" >
-                <p style="display:inline-block;font-size:130%" >Project description</p>
-          </div>
-
-          <h3 style="text-align: center;font: arial;font-size:145%">Photo Gallery</h3>
-          <p style="font-size:200%;">_______________</p>
-
+<div class="signup-form">
+    <form action="/" method="post">
+		
+		<h4>Sign Up to Deakin Newsletter</h4>
+        <hr>
+        <div class="form-group">
+			<div class="row">
+				<div class="col"><input type="text" class="form-control" name="first_name" placeholder="First Name" required="required"><br></div>
+            </div>  
+            <div class="row">
+            <div class="col"><input type="text" class="form-control" name="last_name" placeholder="Last Name" required="required"></div>
+            </div>
         </div>
-
-
-
-      <div class="photo-gallery">
-        <a target="_blank" href="pet1.jpg">
-          <img src="pet2.jpg" alt="" >
-        </a>
-      </div>
-      
-      <div class="photo-gallery">
-        <a target="_blank" href="pet2.jpg">
-          <img src="pet5.jpg" alt="">
-        </a>
-        
-      </div>
-      
-      <div class="photo-gallery">
-        <a target="_blank" href="pet3.jpg">
-          <img src="pet3.jpg" alt="" >
-        </a>
-      </div>
-      
-      <div class="photo-gallery">
-        <a target="_blank" href="pet4.jpg">
-          <img src="pet4.jpg" alt="" >
-        </a>
-        
-      </div>
-
+        <div class="form-group">
+        	<input type="email" class="form-control" name="email" placeholder="Email" required="required">
+        </div>     
+		<div class="form-group">
+            <button type="submit" class="btn btn-lg btn-primary btn-block">Sign Up</button>
+        </div>
+    </form>
+    <!-- <div class="hint-text">Already have an account? <a href="#">Login here</a></div> -->
+    <!-- <div class="form-group">
+		<img src="image/logo.png" alt="Deakin" width="200" length="200">
+	</div> -->
+</div>
 </body>
 </html>
